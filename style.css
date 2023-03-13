@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px gray;
+    width: auto;
+    height: 30rem;
+}
+/*main image*/
+img {
+    width: 120%;
+    height: 30rem;
+    border-top-left-radius: 145px;
+    border-bottom-right-radius: 145px;
+}
+.login h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+/* username and password*/
+.inp{
+    width: 55%;
+    height:50px;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -26px 30px -19px rgba(0, 0, 0, 8);
+}
+/* login with */
+.log{
+    margin: 0;
+    color: rgb(22, 84, 119);
+    font-weight: 600;
+}
+/*icons*/
+.fa{
+    padding: 6px;
+    size: 5px;
+    font-size: 30px;
+}
+.fa:hover{
+    color: rgb(35, 100, 161);
+}
